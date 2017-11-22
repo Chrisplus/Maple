@@ -1,0 +1,9 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum OptionType {
+	OPTIONTYPE_PASS = 0;
+	OPTIONTYPE_END_TURN = 1;
+	OPTIONTYPE_POWER = 2;
+
+}

@@ -1,0 +1,10 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum ZodiacYear {
+	ZODIACYEAR_PRE_STANDARD = 0;
+	ZODIACYEAR_KRAKEN = 1;
+	ZODIACYEAR_MAMMOTH = 2;
+	ZODIACYEAR_INVALID = 2147483647;
+
+}

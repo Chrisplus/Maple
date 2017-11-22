@@ -1,0 +1,17 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum PlayState {
+	option allow_alias = true;
+	PLAYSTATE_INVALID = 0;
+	PLAYSTATE_PLAYING = 1;
+	PLAYSTATE_WINNING = 2;
+	PLAYSTATE_LOSING = 3;
+	PLAYSTATE_WON = 4;
+	PLAYSTATE_LOST = 5;
+	PLAYSTATE_TIED = 6;
+	PLAYSTATE_DISCONNECTED = 7;
+	PLAYSTATE_CONCEDED = 8;
+	PLAYSTATE_QUIT = 8;
+
+}

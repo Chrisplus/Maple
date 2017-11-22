@@ -1,0 +1,18 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum BlockType {
+	option allow_alias = true;
+	BLOCKTYPE_ATTACK = 0;
+	BLOCKTYPE_CONTINUOUS = 1;
+	BLOCKTYPE_JOUST = 1;
+	BLOCKTYPE_POWER = 2;
+	BLOCKTYPE_SCRIPT = 3;
+	BLOCKTYPE_TRIGGER = 4;
+	BLOCKTYPE_DEATHS = 5;
+	BLOCKTYPE_PLAY = 6;
+	BLOCKTYPE_FATIGUE = 7;
+	BLOCKTYPE_RITUAL = 8;
+	BLOCKTYPE_ACTION = 98;
+
+}

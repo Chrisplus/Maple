@@ -1,0 +1,9 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum ChoiceType {
+	CHOICETYPE_INVALID = 0;
+	CHOICETYPE_MULLIGAN = 1;
+	CHOICETYPE_GENERAL = 2;
+
+}

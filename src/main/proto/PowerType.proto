@@ -1,0 +1,18 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum PowerType {
+	option allow_alias = true;
+	POWERTYPE_FULL_ENTITY = 0;
+	POWERTYPE_SHOW_ENTITY = 1;
+	POWERTYPE_HIDE_ENTITY = 2;
+	POWERTYPE_TAG_CHANGE = 3;
+	POWERTYPE_BLOCK_START = 4;
+	POWERTYPE_ACTION_START = 4;
+	POWERTYPE_BLOCK_END = 5;
+	POWERTYPE_ACTION_END = 5;
+	POWERTYPE_CREATE_GAME = 6;
+	POWERTYPE_META_DATA = 7;
+	POWERTYPE_CHANGE_ENTITY = 8;
+
+}

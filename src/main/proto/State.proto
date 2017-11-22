@@ -1,0 +1,10 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum State {
+	STATE_INVALID = 0;
+	STATE_LOADING = 1;
+	STATE_RUNNING = 2;
+	STATE_COMPLETE = 3;
+
+}

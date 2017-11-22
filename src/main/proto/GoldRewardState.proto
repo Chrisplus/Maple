@@ -1,0 +1,15 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum GoldRewardState {
+	option allow_alias = true;
+	GOLDREWARDSTATE_INVALID = 0;
+	GOLDREWARDSTATE_ELIGIBLE = 1;
+	GOLDREWARDSTATE_WRONG_GAME_TYPE = 2;
+	GOLDREWARDSTATE_ALREADY_CAPPED = 3;
+	GOLDREWARDSTATE_BAD_RATING = 4;
+	GOLDREWARDSTATE_SHORT_GAME = 5;
+	GOLDREWARDSTATE_SHORT_GAME_BY_TIME = 5;
+	GOLDREWARDSTATE_OVER_CAIS = 6;
+
+}

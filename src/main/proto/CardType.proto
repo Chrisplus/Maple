@@ -1,0 +1,19 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum CardType {
+	option allow_alias = true;
+	CARDTYPE_INVALID = 0;
+	CARDTYPE_GAME = 1;
+	CARDTYPE_PLAYER = 2;
+	CARDTYPE_HERO = 3;
+	CARDTYPE_MINION = 4;
+	CARDTYPE_SPELL = 5;
+	CARDTYPE_ABILITY = 5;
+	CARDTYPE_ENCHANTMENT = 6;
+	CARDTYPE_WEAPON = 7;
+	CARDTYPE_ITEM = 8;
+	CARDTYPE_TOKEN = 9;
+	CARDTYPE_HERO_POWER = 10;
+
+}

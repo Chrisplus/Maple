@@ -1,0 +1,33 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum Race {
+	option allow_alias = true;
+	RACE_INVALID = 0;
+	RACE_BLOODELF = 1;
+	RACE_DRAENEI = 2;
+	RACE_DWARF = 3;
+	RACE_GNOME = 4;
+	RACE_GOBLIN = 5;
+	RACE_HUMAN = 6;
+	RACE_NIGHTELF = 7;
+	RACE_ORC = 8;
+	RACE_TAUREN = 9;
+	RACE_TROLL = 10;
+	RACE_UNDEAD = 11;
+	RACE_WORGEN = 12;
+	RACE_GOBLIN2 = 13;
+	RACE_MURLOC = 14;
+	RACE_DEMON = 15;
+	RACE_SCOURGE = 16;
+	RACE_MECHANICAL = 17;
+	RACE_ELEMENTAL = 18;
+	RACE_OGRE = 19;
+	RACE_BEAST = 20;
+	RACE_PET = 20;
+	RACE_TOTEM = 21;
+	RACE_NERUBIAN = 22;
+	RACE_PIRATE = 23;
+	RACE_DRAGON = 24;
+
+}

@@ -1,0 +1,11 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum Mulligan {
+	MULLIGAN_INVALID = 0;
+	MULLIGAN_INPUT = 1;
+	MULLIGAN_DEALING = 2;
+	MULLIGAN_WAITING = 3;
+	MULLIGAN_DONE = 4;
+
+}

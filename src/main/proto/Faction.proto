@@ -1,0 +1,10 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum Faction {
+	FACTION_INVALID = 0;
+	FACTION_HORDE = 1;
+	FACTION_ALLIANCE = 2;
+	FACTION_NEUTRAL = 3;
+
+}

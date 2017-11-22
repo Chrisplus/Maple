@@ -1,0 +1,14 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum Zone {
+	ZONE_INVALID = 0;
+	ZONE_PLAY = 1;
+	ZONE_DECK = 2;
+	ZONE_HAND = 3;
+	ZONE_GRAVEYARD = 4;
+	ZONE_REMOVEDFROMGAME = 5;
+	ZONE_SETASIDE = 6;
+	ZONE_SECRET = 7;
+
+}

@@ -1,0 +1,14 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum DeckType {
+	DECKTYPE_UNKNOWN_DECK_TYPE = 0;
+	DECKTYPE_NORMAL_DECK = 1;
+	DECKTYPE_AI_DECK = 2;
+	DECKTYPE_DRAFT_DECK = 4;
+	DECKTYPE_PRECON_DECK = 5;
+	DECKTYPE_TAVERN_BRAWL_DECK = 6;
+	DECKTYPE_FSG_BRAWL_DECK = 7;
+	DECKTYPE_HIDDEN_DECK = 1000;
+
+}

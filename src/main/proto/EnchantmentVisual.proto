@@ -1,0 +1,10 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum EnchantmentVisual {
+	ENCHANTMENTVISUAL_INVALID = 0;
+	ENCHANTMENTVISUAL_POSITIVE = 1;
+	ENCHANTMENTVISUAL_NEGATIVE = 2;
+	ENCHANTMENTVISUAL_NEUTRAL = 3;
+
+}

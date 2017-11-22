@@ -1,0 +1,10 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum BrawlType {
+	BRAWLTYPE_BRAWL_TYPE_UNKNOWN = 0;
+	BRAWLTYPE_BRAWL_TYPE_TAVERN_BRAWL = 1;
+	BRAWLTYPE_BRAWL_TYPE_FIRESIDE_GATHERING = 2;
+	BRAWLTYPE_BRAWL_TYPE_COUNT = 3;
+
+}

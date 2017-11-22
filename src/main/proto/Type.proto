@@ -1,0 +1,16 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum Type {
+	TYPE_UNKNOWN = 0;
+	TYPE_BOOL = 1;
+	TYPE_NUMBER = 2;
+	TYPE_COUNTER = 3;
+	TYPE_ENTITY = 4;
+	TYPE_PLAYER = 5;
+	TYPE_TEAM = 6;
+	TYPE_ENTITY_DEFINITION = 7;
+	TYPE_STRING = 8;
+	TYPE_LOCSTRING = 2147483646;
+
+}

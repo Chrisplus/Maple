@@ -2,6 +2,8 @@ group 'com.chrisplus'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'com.google.protobuf'
+apply plugin: 'idea'
 
 sourceCompatibility = 1.8
 
@@ -11,4 +13,29 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.google.protobuf:protobuf-java:3.5.0'
+}
+
+buildscript{
+    repositories{
+        mavenCentral()
+    }
+
+    dependencies{
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.3'
+    }
+}
+
+protobuf{
+    generatedFilesBaseDir = "$projectDir/gen"
+}
+
+clean {
+    delete protobuf.generatedFilesBaseDir
+}
+
+idea {
+    module {
+        sourceDirs += file("${protobuf.generatedFilesBaseDir}/main/java");
+    }
 }

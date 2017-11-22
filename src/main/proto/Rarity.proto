@@ -1,0 +1,13 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum Rarity {
+	RARITY_INVALID = 0;
+	RARITY_COMMON = 1;
+	RARITY_FREE = 2;
+	RARITY_RARE = 3;
+	RARITY_EPIC = 4;
+	RARITY_LEGENDARY = 5;
+	RARITY_UNKNOWN_6 = 6;
+
+}

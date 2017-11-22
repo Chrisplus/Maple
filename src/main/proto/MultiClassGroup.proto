@@ -1,0 +1,10 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum MultiClassGroup {
+	MULTICLASSGROUP_INVALID = 0;
+	MULTICLASSGROUP_GRIMY_GOONS = 1;
+	MULTICLASSGROUP_JADE_LOTUS = 2;
+	MULTICLASSGROUP_KABAL = 3;
+
+}

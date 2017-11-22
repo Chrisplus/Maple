@@ -1,0 +1,23 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum Locale {
+	LOCALE_ENUS = 0;
+	LOCALE_ENGB = 1;
+	LOCALE_FRFR = 2;
+	LOCALE_DEDE = 3;
+	LOCALE_KOKR = 4;
+	LOCALE_ESES = 5;
+	LOCALE_ESMX = 6;
+	LOCALE_RURU = 7;
+	LOCALE_ZHTW = 8;
+	LOCALE_ZHCN = 9;
+	LOCALE_ITIT = 10;
+	LOCALE_PTBR = 11;
+	LOCALE_PLPL = 12;
+	LOCALE_PTPT = 13;
+	LOCALE_JAJP = 14;
+	LOCALE_THTH = 15;
+	LOCALE_UNKNOWN = 2147483647;
+
+}

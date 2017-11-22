@@ -1,0 +1,9 @@
+syntax = 'proto3';
+option java_package = 'com.chrisplus.maple.simulation.enums';
+
+enum FormatType {
+	FORMATTYPE_FT_UNKNOWN = 0;
+	FORMATTYPE_FT_WILD = 1;
+	FORMATTYPE_FT_STANDARD = 2;
+
+}
